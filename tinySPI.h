@@ -25,7 +25,7 @@
 #define USCK_DD_PIN DDA4
 #define DO_DD_PIN DDA5
 #define DI_DD_PIN DDA6
-#elif defined(__AVR_ATtiny45__) || defined(__AVR_ATtiny85__)
+#elif defined(__AVR_ATtiny45__) || defined(__AVR_ATtiny85__) || defined(__AVR_ATtiny461__) || defined(__AVR_ATtiny861__) || defined(__AVR_ATtiny861A__)
 #define SPI_DDR_PORT DDRB
 #define USCK_DD_PIN DDB2
 #define DO_DD_PIN DDB1
